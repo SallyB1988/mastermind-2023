@@ -1,38 +1,83 @@
-.App {
+.full-bg-size {
+  background-image: url("../src/images/dots.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header {
+  height: 300px;
+  position: center;
+}
+
+.guessed-section {
+  height: 700px;
+}
+
+.answer {
+  position: absolute;
+  bottom: 0px;
+}
+
+.menu {
+  float: right;
+  background-color: #e0e1e2 !important;
+}
+
+.gameboard {
   text-align: center;
+  align-content: space-between;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.infobutton {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.displayTableRow {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 2.5em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.displayKeyRow {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 1.5em;
+}
+
+.gameboard-row {
+  padding: 5px !important;
+  margin: 0px !important;
+}
+
+.border {
+  border: black !important;
+  border-width: thin;
+}
+
+.main {
+  background-color: #b6bec8;
+}
+
+.peg-choices {
+  display: flex;
+  justify-content: center;
+  height: 3em;
+}
+.showAnswer {
+  background-color: #b6bec8 !important;
+}
+
+.modal {
+  transform: translate("25%", "25%") !important;
+}
+.restart {
+  height: 200vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  justify-content: flex-end;
 }
