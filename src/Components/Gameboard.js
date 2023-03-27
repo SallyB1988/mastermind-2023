@@ -12,7 +12,7 @@ import { COLOR_SET } from "../Common/constants";
 import WinLoseModal from "./WinLoseModal";
 // import GiveUp from "./GiveUp";
 
-const maxTries = 10;
+const maxTries = 6;
 
 const initialState = {
   numPuzzlePegs: 4,

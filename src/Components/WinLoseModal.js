@@ -26,7 +26,7 @@ function WinLoseModal() {
         ) : (
           <>
             <Image src={YouLose} alt={"You lost"} />
-            <h3>{`Solution:`}</h3>
+            <h3>Solution:</h3>
             <DisplayRow
               className="selection"
               name={`solution`}
